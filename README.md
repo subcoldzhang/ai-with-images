@@ -12,7 +12,7 @@ This creates real inefficiency:
 **What if we just... gave it the image?**
 ---
 ## What Happens When You Add Images
-### Example 1: Road Test Analysis Assistant
+### Example 1: Analysis Assistant
 In our practice, we found a powerful pattern: **let AI visualize data first, then analyze the visualization**.
 - 100k data points → AI struggles, high token cost, misses global patterns
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
@@ -86,7 +86,6 @@ Next time you write a prompt, ask yourself:
 ## References
 - [DeepSeek-OCR Paper](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
 - [arXiv:2410.21943 - Industrial Document QA](https://arxiv.org/abs/2410.21943)
-- [OpenClaw Application Cases](https://li.feishu.cn/docx/...)
 ---
 ## License
 MIT License — feel free to share, remix, and build upon.
