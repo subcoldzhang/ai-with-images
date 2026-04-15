@@ -31,10 +31,15 @@ This proves: "Map text → image → compress to vision tokens" is viable.
 ### Example 3: Industrial Equipment Operation — Siemens & Munich University
 
 Paper: [arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
+
 Question: "How to sync logs so DIGSI 5 can read indicator info?"
+
 The answer requires both text instructions AND the button position in the image (marked as "Read log entries").
+
 Result: Text + Image → **80% accuracy** vs Text-only or Image-only → **60%**
+
 ![Industrial equipment example](./images/industrial-equipment.png)
+
 ---
 ## Why Adding Images Works
 ### 1. Higher Information Density
@@ -72,8 +77,11 @@ Maybe AI memory should be a collection of images too:
 - One dashboard frame replaces a numeric description
 Structure extracted by AI, not defined by humans.
 ### Training Data: The Missing Piece Is Finally Available
+
 **LLMs**: Past training missed diagrams, flowcharts, architecture charts. Multimodal training lets models learn from image-text pairs. Now we can generate synthetic data: image→text→image→text, self-reinforcing flywheel.
+
 **Robotics**: YouTube's billions of human operation videos become training data. No need for expensive motion capture. RT-2, π0 are built on this logic.
+
 ---
 ## Takeaway
 This isn't about abandoning text. It's about letting each medium do what it's best at:
@@ -81,6 +89,7 @@ This isn't about abandoning text. It's about letting each medium do what it's be
 |------|-------|
 | Intent, constraints, criteria | Context, details, evidence |
 | What you want to solve | Where the problem is |
+
 Next time you write a prompt, ask yourself: *"Is there something I can just screenshot?"*
 ---
 ## References
