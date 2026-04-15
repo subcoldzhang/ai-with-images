@@ -1,6 +1,6 @@
 # 给 AI 看图，比跟 AI 说话更高效
 > *"最奇怪的事不是 AI 能看图了——而是大多数人跟 AI 对话，依然只用文字。"*
-[中文](./README.md) | [English](./README_EN.md)
+[中文](./README_CN.md) | [English](./README.md)
 ---
 ## 📖 目录
 - [为什么写这篇文章](#为什么写这篇文章)
