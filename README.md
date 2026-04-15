@@ -17,7 +17,6 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
 - 100k data points → AI struggles, high token cost, misses global patterns
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
 **Key insight**: Images are compressed expressions of data, not data loss.
-→ [Detailed article: Road Test Analysis Assistant based on OpenClaw Skill](https://li.feishu.cn/docx/...)
 
 ### Example 2: DeepSeek-OCR — Text Compression via Vision
 Paper: [DeepSeek_OCR_paper.pdf](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
