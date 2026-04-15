@@ -102,10 +102,15 @@ Structure extracted by AI, not defined by humans.
 ---
 ## Takeaway
 This isn't about abandoning text. It's about letting each medium do what it's best at:
+
+<div align="center">
+
 | Text | Image |
 |------|-------|
 | Intent, constraints, criteria | Context, details, evidence |
 | What you want to solve | Where the problem is |
+
+</div>
 
 Next time you write a prompt, ask yourself: *"Is there something I can just screenshot?"*
 
