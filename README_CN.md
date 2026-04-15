@@ -27,14 +27,19 @@
 ---
 ## 加图之后，发生了什么
 ### 示例一：数据分析助手
+<div align="center">
+
+![example chart](./images/chart.png)
+
+</div>
 我们在实践中发现了一个有趣的范式：**先让大模型把数据可视化成图像，再让它基于图像分析，效果远比直接输入原始数据好得多。**
 - 10 万个数据点直接扔给大模型 → token 消耗巨大，容易遗漏全局模式
 - 同样的数据画成折线图 → 大模型**一眼识别**趋势异常、离群点、周期性波动
 > 💡 **核心发现**：图像是数据的压缩表达，而不是数据的损失。
 <table>
   <tr>
-    <td><img src="./images/method_1.png" width="400"/></td>
-    <td><img src="./images/method_2.png" width="400"/></td>
+    <td align="center"><img src="./images/method_1.png" width="400"/></td>
+    <td align="center"><img src="./images/method_2.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>纯文字提问：只返回统计数据</em></td>
@@ -50,7 +55,11 @@
 | Tiny    | 64           | ~10x   | **≈97%** |
 | Small   | 100          | ~20x   | **≈60%** |
 **结论**：把文字先映射成图像、再压成少量视觉 token，这条路是可行的。少量视觉 token 就能承载大量文档信息。
+<div align="center">
+
 ![DeepSeek OCR 压缩精度](./images/deepseek-ocr-chart.png)
+
+</div>
 
 ### 示例三：工业设备操作 — 慕尼黑大学 × 西门子
 > 📄 论文：[arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
@@ -61,7 +70,11 @@
 | 纯文字 或 纯图片 | **≈60%** |
 | **文字 + 图片** | **≈80%** |
 工业文档里很多问题不是只靠文字能答好的，图片常常提供按钮位置、界面元素或操作细节。
+<div align="center">
+
 ![工业设备操作示例](./images/industrial-equipment.png)
+
+</div>
 
 ---
 ## 为什么加图有效
