@@ -31,6 +31,16 @@
 - 10 万个数据点直接扔给大模型 → token 消耗巨大，容易遗漏全局模式
 - 同样的数据画成折线图 → 大模型**一眼识别**趋势异常、离群点、周期性波动
 > 💡 **核心发现**：图像是数据的压缩表达，而不是数据的损失。
+<table>
+  <tr>
+    <td><img src="./images/method_1.png" width="400"/></td>
+    <td><img src="./images/method_2.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>纯文字提问：只返回统计数据</em></td>
+    <td align="center"><em>让 AI 画图再分析：识别出周期性波动和趋势</em></td>
+  </tr>
+</table>
 
 ### 示例二：DeepSeek-OCR — 文本压缩还能读回来吗？
 > 📄 论文：[DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
