@@ -48,8 +48,11 @@ A screenshot usually doesn't need clarification. "The blue box on the left" coul
 ### 2. Screenshots Are Attention Markers
 When you crop, circle, or add arrows—you're injecting your professional judgment into the input. AI knows "where to focus" without guessing.
 ### 3. Fewer Clarification Rounds
+
 Describing a complex issue in text takes minutes + multiple follow-ups.  
+
 Adding a screenshot takes 10 seconds + one sentence of intent.
+
 ---
 ## When to Add Images
 **Good candidates**:
@@ -91,6 +94,7 @@ This isn't about abandoning text. It's about letting each medium do what it's be
 | What you want to solve | Where the problem is |
 
 Next time you write a prompt, ask yourself: *"Is there something I can just screenshot?"*
+
 ---
 ## References
 - [DeepSeek-OCR Paper](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
