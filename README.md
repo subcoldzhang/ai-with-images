@@ -18,7 +18,7 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
 **Key insight**: Images are compressed expressions of data, not data loss.
 → [Detailed article: Road Test Analysis Assistant based on OpenClaw Skill](https://li.feishu.cn/docx/...)
----
+
 ### Example 2: DeepSeek-OCR — Text Compression via Vision
 Paper: [DeepSeek_OCR_paper.pdf](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
 Experiment: Can long text be compressed into images and still be read back?
@@ -27,17 +27,12 @@ Experiment: Can long text be compressed into images and still be read back?
 - OCR accuracy: **97% at 10x compression**, **60% at 20x**
 This proves: "Map text → image → compress to vision tokens" is viable.
 ![DeepSeek OCR compression chart](./images/deepseek-ocr-chart.png)
----
+
 ### Example 3: Industrial Equipment Operation — Siemens & Munich University
-
 Paper: [arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
-
 Question: "How to sync logs so DIGSI 5 can read indicator info?"
-
 The answer requires both text instructions AND the button position in the image (marked as "Read log entries").
-
 Result: Text + Image → **80% accuracy** vs Text-only or Image-only → **60%**
-
 ![Industrial equipment example](./images/industrial-equipment.png)
 
 ---
@@ -48,10 +43,7 @@ A screenshot usually doesn't need clarification. "The blue box on the left" coul
 ### 2. Screenshots Are Attention Markers
 When you crop, circle, or add arrows—you're injecting your professional judgment into the input. AI knows "where to focus" without guessing.
 ### 3. Fewer Clarification Rounds
-
-Describing a complex issue in text takes minutes + multiple follow-ups.  
-
-Adding a screenshot takes 10 seconds + one sentence of intent.
+Describing a complex issue in text takes minutes + multiple follow-ups.  Adding a screenshot takes 10 seconds + one sentence of intent.
 
 ---
 ## When to Add Images
@@ -69,6 +61,7 @@ Adding a screenshot takes 10 seconds + one sentence of intent.
 1. Crop to key areas (don't dump a full-screen screenshot)
 2. Add annotations (circles, arrows to show what you care about)
 3. Combine text + image: text explains *intent*, image shows *context*
+
 ---
 ## Future Implications
 ### Ontology: Should Memory Be Stored as Images?
@@ -80,9 +73,7 @@ Maybe AI memory should be a collection of images too:
 - One dashboard frame replaces a numeric description
 Structure extracted by AI, not defined by humans.
 ### Training Data: The Missing Piece Is Finally Available
-
 **LLMs**: Past training missed diagrams, flowcharts, architecture charts. Multimodal training lets models learn from image-text pairs. Now we can generate synthetic data: image→text→image→text, self-reinforcing flywheel.
-
 **Robotics**: YouTube's billions of human operation videos become training data. No need for expensive motion capture. RT-2, π0 are built on this logic.
 
 ---
@@ -99,9 +90,11 @@ Next time you write a prompt, ask yourself: *"Is there something I can just scre
 ## References
 - [DeepSeek-OCR Paper](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
 - [arXiv:2410.21943 - Industrial Document QA](https://arxiv.org/abs/2410.21943)
+
 ---
 ## License
 MIT License — feel free to share, remix, and build upon.
+
 ---
 **If this changed how you think about AI prompts, give it a ⭐!**
 Questions? Reach me at zhangyuhao7@lixiang.com
