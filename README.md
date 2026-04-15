@@ -13,7 +13,10 @@ This creates real inefficiency:
 ---
 ## What Happens When You Add Images
 ### Example 1: Analysis Assistant
+<div align="center">
 ![example chart](./images/chart.png)
+</div>
+
 In our practice, we found a powerful pattern: **let AI visualize data first, then analyze the visualization**.
 - 100k data points → AI struggles, high token cost, misses global patterns
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
@@ -36,14 +39,18 @@ Experiment: Can long text be compressed into images and still be read back?
 - Compressed into 64-100 vision tokens (10x-20x compression)
 - OCR accuracy: **97% at 10x compression**, **60% at 20x**
 This proves: "Map text → image → compress to vision tokens" is viable.
+<div align="center">
 ![DeepSeek OCR compression chart](./images/deepseek-ocr-chart.png)
+</div>
 
 ### Example 3: Industrial Equipment Operation — Siemens & Munich University
 Paper: [arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
 Question: "How to sync logs so DIGSI 5 can read indicator info?"
 The answer requires both text instructions AND the button position in the image (marked as "Read log entries").
 Result: Text + Image → **80% accuracy** vs Text-only or Image-only → **60%**
+<div align="center">
 ![Industrial equipment example](./images/industrial-equipment.png)
+</div>
 
 ---
 ## Why Adding Images Works
