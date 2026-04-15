@@ -96,5 +96,4 @@ Next time you write a prompt, ask yourself: *"Is there something I can just scre
 MIT License — feel free to share, remix, and build upon.
 
 ---
-**If this changed how you think about AI prompts, give it a ⭐!**
 Questions? Reach me at zhangyuhao7@lixiang.com
