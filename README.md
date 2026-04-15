@@ -13,6 +13,7 @@ This creates real inefficiency:
 ---
 ## What Happens When You Add Images
 ### Example 1: Analysis Assistant
+![example chart](./images/chart.png)
 In our practice, we found a powerful pattern: **let AI visualize data first, then analyze the visualization**.
 - 100k data points → AI struggles, high token cost, misses global patterns
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
@@ -23,8 +24,8 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
     <td><img src="./images/method_2.png" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><em>纯文字提问：只返回统计数据</em></td>
-    <td align="center"><em>让 AI 画图再分析：识别出周期性波动和趋势</em></td>
+    <td align="center"><em>Text-only prompt: returns raw statistics</em></td>
+    <td align="center"><em>Let AI visualize first, then analyze: spots periodic fluctuations and trends</em></td>
   </tr>
 </table>
 
