@@ -17,6 +17,16 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
 - 100k data points → AI struggles, high token cost, misses global patterns
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
 **Key insight**: Images are compressed expressions of data, not data loss.
+<table>
+  <tr>
+    <td><img src="./images/method_1.png" width="400"/></td>
+    <td><img src="./images/method_2.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>纯文字提问：只返回统计数据</em></td>
+    <td align="center"><em>让 AI 画图再分析：识别出周期性波动和趋势</em></td>
+  </tr>
+</table>
 
 ### Example 2: DeepSeek-OCR — Text Compression via Vision
 Paper: [DeepSeek_OCR_paper.pdf](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
