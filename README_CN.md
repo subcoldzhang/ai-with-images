@@ -36,7 +36,7 @@
 - 10 万个数据点直接扔给大模型 → token 消耗巨大，容易遗漏全局模式
 - 同样的数据画成折线图 → 大模型**一眼识别**趋势异常、离群点、周期性波动
 > 💡 **核心发现**：图像是数据的压缩表达，而不是数据的损失。
-<table>
+<table align="center">
   <tr>
     <td align="center"><img src="./images/method_1.png" width="400"/></td>
     <td align="center"><img src="./images/method_2.png" width="400"/></td>
