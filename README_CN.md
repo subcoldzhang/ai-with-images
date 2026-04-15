@@ -39,17 +39,6 @@
 - 同样的数据画成折线图 → 大模型**一眼识别**趋势异常、离群点、周期性波动
 > 💡 **核心发现**：图像是数据的压缩表达，而不是数据的损失。
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="./images/method_1.png" width="400"/></td>
-    <td align="center"><img src="./images/method_2.png" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center"><em>纯文字提问：只返回统计数据</em></td>
-    <td align="center"><em>让 AI 画图再分析：识别出周期性波动和趋势</em></td>
-  </tr>
-</table>
-
 ### 示例二：DeepSeek-OCR — 文本压缩还能读回来吗？
 > 📄 论文：[DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
 实验设计：从英文文档中选了 100 页（每页 600-1300 个 text token），用极少的视觉 token 去读图：
