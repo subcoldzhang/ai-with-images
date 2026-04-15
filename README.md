@@ -23,7 +23,7 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
 - 100k data points → AI struggles, high token cost, misses global patterns
 - Same data as a line chart → AI instantly spots trends, outliers, periodic fluctuations
 **Key insight**: Images are compressed expressions of data, not data loss.
-<table>
+<table align="center">
   <tr>
     <td align="center"><img src="./images/method_1.png" width="400"/></td>
     <td align="center"><img src="./images/method_2.png" width="400"/></td>
