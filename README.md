@@ -80,8 +80,7 @@ This isn't about abandoning text. It's about letting each medium do what it's be
 |------|-------|
 | Intent, constraints, criteria | Context, details, evidence |
 | What you want to solve | Where the problem is |
-Next time you write a prompt, ask yourself:
-> *"Is there something I can just screenshot?"*
+Next time you write a prompt, ask yourself: *"Is there something I can just screenshot?"*
 ---
 ## References
 - [DeepSeek-OCR Paper](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
