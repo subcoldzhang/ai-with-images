@@ -32,7 +32,7 @@ This proves: "Map text → image → compress to vision tokens" is viable.
 Paper: [arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
 Question: "How to sync logs so DIGSI 5 can read indicator info?"
 The answer requires both text instructions AND the button position in the image (marked as "Read log entries").
-**Result**: Text + Image → **80% accuracy** vs Text-only or Image-only → **60%**
+Result: Text + Image → **80% accuracy** vs Text-only or Image-only → **60%**
 ![Industrial equipment example](./images/industrial-equipment.png)
 ---
 ## Why Adding Images Works
