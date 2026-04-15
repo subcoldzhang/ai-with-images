@@ -20,8 +20,8 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
 **Key insight**: Images are compressed expressions of data, not data loss.
 <table>
   <tr>
-    <td><img src="./images/method_1.png" width="400"/></td>
-    <td><img src="./images/method_2.png" width="400"/></td>
+    <td align="center"><img src="./images/method_1.png" width="400"/></td>
+    <td align="center"><img src="./images/method_2.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>Text-only prompt: returns raw statistics</em></td>
