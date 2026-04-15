@@ -1,6 +1,6 @@
 # Giving AI Images, Not Just Words
 > *"The Weirdest thing isn't that AI can see images—it's that most people still only talk to it in text."*
-English | [中文版](./README_CN.md)
+[English](./README.md) | [中文版](./README_CN.md)
 ---
 ## The Problem
 Since 2023, mainstream LLMs (GPT-4V, Claude 3, Gemini) have gained stable visual understanding. They can read screenshots, analyze charts, recognize layouts, and spot anomalies in waveforms.
