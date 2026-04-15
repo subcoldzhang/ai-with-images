@@ -28,7 +28,8 @@ Experiment: Can long text be compressed into images and still be read back?
 This proves: "Map text → image → compress to vision tokens" is viable.
 ![DeepSeek OCR compression chart](./images/deepseek-ocr-chart.png)
 ---
-### Example 3: Industrial Equipment Operation — Siemens + Munich University
+### Example 3: Industrial Equipment Operation — Siemens & Munich University
+
 Paper: [arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
 Question: "How to sync logs so DIGSI 5 can read indicator info?"
 The answer requires both text instructions AND the button position in the image (marked as "Read log entries").
