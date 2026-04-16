@@ -37,10 +37,12 @@ In our practice, we found a powerful pattern: **let AI visualize data first, the
 
 ### Example 2: DeepSeek-OCR — Text Compression via Vision
 Paper: [DeepSeek_OCR_paper.pdf](https://github.com/deepseek-ai/DeepSeek-OCR/blob/main/DeepSeek_OCR_paper.pdf)
+
 Experiment: Can long text be compressed into images and still be read back?
 - 100 pages of English docs (600-1300 tokens per page)
 - Compressed into 64-100 vision tokens (10x-20x compression)
 - OCR accuracy: **97% at 10x compression**, **60% at 20x**
+
 This proves: "Map text → image → compress to vision tokens" is viable.
 <div align="center">
   
@@ -50,8 +52,11 @@ This proves: "Map text → image → compress to vision tokens" is viable.
 
 ### Example 3: Industrial Equipment Operation — Siemens & Munich University
 Paper: [arXiv:2410.21943](https://arxiv.org/abs/2410.21943)
+
 Question: "How to sync logs so DIGSI 5 can read indicator info?"
+
 The answer requires both text instructions AND the button position in the image (marked as "Read log entries").
+
 Result: Text + Image → **80% accuracy** vs Text-only or Image-only → **60%**
 <div align="center">
   
