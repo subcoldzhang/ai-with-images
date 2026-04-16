@@ -41,8 +41,8 @@
 
 <table align="center">
   <tr>
-    <td align="center"><img src="./images/claude-code-text.png" width="400"/></td>
-    <td align="center"><img src="./images/claude-code-chart.png" width="400"/></td>
+    <td align="center"><img src="./images/method_1.png" width="400"/></td>
+    <td align="center"><img src="./images/method_2.png" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>纯文字提问：只返回统计数据</em></td>
