@@ -103,6 +103,7 @@ Maybe AI memory should be a collection of images too:
 Structure extracted by AI, not defined by humans.
 ### Training Data: The Missing Piece Is Finally Available
 **LLMs**: Past training missed diagrams, flowcharts, architecture charts. Multimodal training lets models learn from image-text pairs. Now we can generate synthetic data: image→text→image→text, self-reinforcing flywheel.
+
 **Robotics**: YouTube's billions of human operation videos become training data. No need for expensive motion capture. RT-2, π0 are built on this logic.
 
 ---
